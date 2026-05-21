@@ -13,15 +13,14 @@ Sure. But make sure you DON'T say that it is YOURS, not MINE.
 
 ## How do I install it?
 
-Just install usefulpyfunc.py and cope in into your project's folder.
+Just install usefulpyfunc.py and copy it in into your project's folder.
 
 ## How to run it?
 
-Just import and init. If you don't know how to (really? you're THIS level novice?), here's a tip:
+Just import. If you don't know how to (really? you're THIS level novice?), here's a tip:
 ```python
 import usefulpyfunc as upf
 
-upf.init()
 upf.get_help()
 ```
 AND make sure you have random installed because some functions need it really much
