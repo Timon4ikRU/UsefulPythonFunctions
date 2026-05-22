@@ -1,15 +1,12 @@
 import random
 
-print("UsefulPyFunc version 1.0.2")
+print("UsefulPyFunc version 1.0.3")
+print("Release date: 22 May 2026")
 print("(c)Timofey Yakubov 2026")
 print("GPL v2")
 print("Here I am!")
 
 def get_help():
-    print("="*15)
-    print("UsefulPyFunc requires module random to work properly (some functions use it)")
-    print("pip install random if you dont have it")
-
     print("=" * 10)
     print("UPF HELP")
     
@@ -29,6 +26,8 @@ def get_help():
     help(random_array_int)
     print("random_array_uni: ")
     help(random_array_uni)
+    print("random_rounded: ")
+    help(random_rounded)
 
 def equal_not_strict(num1, num2):
     '''Not strict equality check (2 nums)'''
@@ -42,6 +41,8 @@ def equal_strict(num1, num2):
     if type(num1) == type(num2):
         if num1 == num2:
             print("True")
+        elif num1 != num2:
+            print("False")
     else:
         print("False")
             
@@ -99,3 +100,10 @@ def random_array_uni(quantity, minimal, maximal, array_name, array_data):
     for i in range (quantity):
         a = random.uniform(minimal, maximal)
         array_data.append(a)
+        
+def random_rounded(digits, minimal, maximal):
+    '''Creates random number and make it a float with N decimal digits'''
+    print("="*10)
+    print("Generating random rounded float with minimal", minimal, "and maximal", maximal, "and", digits, "decimal digits")
+    temp_flt = random.uniform(minimal, maximal)
+    print(round(temp_flt, digits))

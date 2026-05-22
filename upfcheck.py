@@ -34,3 +34,5 @@ upf.random_array_int(10, -100, 100, "RandomIntArray", randarr_int)
 upf.random_array_uni(10, -100, 100, "RandomUniArray", randarr_uni)
 upf.check_type_arr(randarr_int, "RandIntArr")
 upf.check_type_arr(randarr_uni, "RandUniArr")
+
+upf.random_rounded(10, 0, 20)
