@@ -23,11 +23,6 @@ import usefulpyfunc as upf
 
 upf.get_help()
 ```
-AND make sure you have random installed because some functions need it really much
-```
-pip install random
-```
-
 ## Why GPL 2.0?
 
 Because I'm a single developer and i PHYSICALLY can not maintain it alone. So if you update it, PLEASE fork this repository and make a pull request. O͇̖̙ͫr̵̝̠̀͟ e̯ͤ̑̉͟͜l̖͚͕̈́ͣ̀̚͘͡s̑̇̚͏̵̰̀ͅe̡̛͈̳͞ ̴̧̪̗͞G̷̶͓̘̈́̃͜i̦̇̽́͟͠t̾͏̺H̜̙ͥ̑͐u̶̸̩͐b̊ͯͫ͏̧͞ ̤̭͈̈ͥa̕r͛m̵̡̻̀͝y̤ ̠̻̹w͓͐̿͡ì͘l̄̏ͨ̕͢͢l̻͈͂͂́͡͞ ̴̛͑̒f̴̩͆͆ͬ́̕i̡͋͏̵͔̫n̉d̢͔͖͒͊́ ̻̟̌̾̀͟͞y͇̳̱o̤͂̽ų̶̸̯̪̭̇̒😈
